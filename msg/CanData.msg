@@ -1,4 +1,4 @@
 std_msgs/Header header
 string hardware_id
 string message_name
-KeyFloatValue[] values
+j1939_interfaces/KeyFloatValue[] values

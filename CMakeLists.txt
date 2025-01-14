@@ -12,12 +12,26 @@ endif()
 
 find_package(ament_cmake REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(std_srvs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/KeyFloatValue.msg"
   "msg/CanData.msg"
+  "msg/Current.msg"
+  "msg/EngineRPM.msg"
+  "msg/EngineTemperatures.msg"
+  "msg/EngineThrottle.msg"
+  "msg/FluidLevel.msg"
+  "msg/FluidLevelHiLow.msg"
+  "msg/HydraulicLockout.msg"
+  "msg/OilLife.msg"
+  "msg/Overheat.msg"
+  "msg/ParkingBrake.msg"
+  "msg/Voltage.msg"
+  "srv/IntTrigger.srv"
   DEPENDENCIES std_msgs
+  DEPENDENCIES std_srvs
 )
 
 ament_export_dependencies(rosidl_default_runtime)
