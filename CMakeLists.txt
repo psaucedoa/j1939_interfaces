@@ -29,7 +29,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Overheat.msg"
   "msg/ParkingBrake.msg"
   "msg/Voltage.msg"
-  "srv/IntTrigger.srv"
   DEPENDENCIES std_msgs
   DEPENDENCIES std_srvs
 )
