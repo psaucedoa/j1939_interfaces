@@ -33,11 +33,6 @@ add_message_files(
   Voltage.msg
 )
 
-  add_service_files(
-    DIRECTORY srv 
-    FILES IntTrigger.srv
-  )
-
 catkin_package(
   CATKIN_DEPENDS 
   message_runtime 
