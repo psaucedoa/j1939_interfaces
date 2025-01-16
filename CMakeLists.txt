@@ -13,7 +13,6 @@ endif()
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs
-  message_generation
 )
 
 add_message_files(
