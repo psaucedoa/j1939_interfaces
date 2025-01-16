@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(j1939_interfaces)
+project(j1939_msgs)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
