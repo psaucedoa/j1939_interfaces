@@ -33,7 +33,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 )
 
 install(
-  FILES j1939_interfaces_mapping_rule.yaml
+  FILES j1939_msgs_mapping_rule.yaml
   DESTINATION share/${PROJECT_NAME}
 )
 
