@@ -1,3 +1,3 @@
-std_msgs/Header header  # timestamp of the measurement
+Header header  # timestamp of the measurement
 
 float64 throttle         # [%] throttle percent

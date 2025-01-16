@@ -1,6 +1,6 @@
 # Multiple readings related to engine temperatures
 
-std_msgs/Header header  # timestamp of the measurement
+Header header  # timestamp of the measurement
 
 float64 coolant_temperature             # [°C] engine coolant temperature reading
 
