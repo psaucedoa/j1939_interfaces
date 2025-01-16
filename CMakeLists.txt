@@ -13,7 +13,6 @@ endif()
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs
-  uuid_msgs
   )
 
 add_message_files(
@@ -37,7 +36,6 @@ add_message_files(
 generate_messages(
   DEPENDENCIES
   std_msgs
-  uuid_msgs
 )
 
 catkin_package(
