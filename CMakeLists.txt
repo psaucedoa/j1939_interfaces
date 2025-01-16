@@ -13,7 +13,8 @@ endif()
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs
-)
+  uuid_msgs
+  )
 
 add_message_files(
   DIRECTORY msg 
@@ -31,6 +32,12 @@ add_message_files(
   Overheat.msg
   ParkingBrake.msg
   Voltage.msg
+)
+
+generate_messages(
+  DEPENDENCIES
+  std_msgs
+  uuid_msgs
 )
 
 catkin_package(
